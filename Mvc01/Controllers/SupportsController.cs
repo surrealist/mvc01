@@ -21,8 +21,8 @@ namespace Mvc01.Controllers
 
     public ActionResult Team()
     {
-      ViewBag.Names = "Suthep,Sukit,Supot";
-      ViewData["Colors"] = "Orange,Lavender,Beige";
+      ViewBag.Names = "Suthep,Sukit,Supot,Surasit";
+      ViewData["Colors"] = "Orange,Lavender,Beige,Yellow";
       ViewBag.Key = "Names";
       return View();
     }
